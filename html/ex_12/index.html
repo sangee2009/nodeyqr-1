@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="create_user.html" method="GET" enctype="application/x-www-form-urlencoded">     
+        <fieldset>
+                <legend>User Form</legend>
+                <label for="nameid">Name:</label>
+                <input type="text" name="username" size="30" maxlength="12" placeholder="username"><br>
+                <label for="pid">Input your password:</label>
+                <input type="password" name="password" size="30" maxlength="8" placeholder="password"><br>
+                <label for="superheros">Select your favourite superheroe</label>
+        <input type="radio" name="superheros" value="Superman"> Superman<br>
+        <input type="radio" name="superheros" value="Batman" checked="checked">Batman<br>
+        <input type="radio" name="superheros" value="Wonder Woman"> Wonder Woman<br>
+        <input type="radio" name="superheros" value="Flash">Flash<br>
+        <input type="radio" name="superheros" value="Thor & Hulk"> Thor & Hulk<br>
+        <label for="videogames">Select your favourite video game</label>
+        <input type="checkbox" name="videogames" value="Fifa" checked="checked" > Harry Potter<br>
+        <input type="checkbox" name="videogames" value="NHL"> Hermione Granger<br>
+        <input type="checkbox" name="videogames" value="Residen Evil "> Ron Weasley<br>
+        <input type="checkbox" name="videogames" value="Uncharted" checked="checked"> Aberforth Dumbledore<br>
+        <input type="hidden" name="userid" value="2300"><br>
+        <input type="image" src="register_button.png" ><br>
+        <textarea cols="80" rows="3" name="about" placeholder="Please tell about urself"></textarea><br><br>
+        <select name="options">
+       <option value="">Select an option</option>
+       <option value="1" selected="selected">First Value</option>
+       <option value="2">Second Value</option>
+        </select>
+        <br><br>
+        <input type="file" name="filename" multiple/><br>
+        <input type="date" name="birthdate" value="1992-09-20"/><br>
+        <input type="email" name="email"/><br>
+        <input type="url" name="url"/><br>
+        <input type="search" name="query"/><br>
+        <input type="text" name="phone" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"/><br>
+        <button type="button">button</button>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+        <input type="submit" value="create account"><br>
+   
+       
+    </fieldset>
+    </form>
+</body>
+</html>
